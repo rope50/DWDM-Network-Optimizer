@@ -2,7 +2,7 @@ DWDM-Network-Optimizer
 ======================
 
 DWDM Network Links Optimizer links using an heuristic. 
-All network can be represented trought a graph, this is a python implementation of an heuristic that is designed 
+All network can be represented trought a graph, this is a python implementation of an heuristic that is designed for optimize the links quantity inside the topology.
 
 The Heuristic works as follows:
 
@@ -10,7 +10,7 @@ The Heuristic works as follows:
 
 2.- Delete temporally all links in the previous path and calculate the shortest path again.
 
-3.- Nodes and links in both paths calculated are asign to the final topology. Then refresh its links weight as 0. 
+3.- Nodes and links in both paths calculated are asigned to the final topology. Then refresh its links weight as 0. 
 
 4.- Repeat steps 1, 2 and 3 for all other nodes within the topology.
 
@@ -28,4 +28,4 @@ exampleGraph = {
 	'3': {'1':1.5,'2':14.5 },
 }
 
-Where 1,2 and 3 are nodes and the value in the dictionary is the link weight between two nodes.
+Where 1,2 and 3 are nodes and the values in the dictionary is the link weight between two nodes.
